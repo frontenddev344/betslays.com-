@@ -1,0 +1,109 @@
+@media screen and (max-width: 991px) {
+
+  /* navbar css for mobile start */
+  .nav-toggler {
+    display: block;
+  }
+
+  .site-navbar {
+    min-height: 60px;
+  }
+
+  .site-navbar ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+    left: 0;
+    top: 80px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00486c;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    z-index: 999;
+  }
+
+  .site-navbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .site-navbar ul li a {
+    padding: 25px;
+    color: #fff;
+  }
+
+  .site-navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .site-navbar ul.open {
+    max-height: 100vh;
+    overflow: visible;
+  }
+
+  section.sellers .sellers-inner .row .col-lg-3.col-md-6.col-12:nth-child(3),
+  section.sellers .sellers-inner .row .col-lg-3.col-md-6.col-12:nth-child(4) {
+    margin-top: 30px;
+  }
+
+  .sellers-inner.seconds .row .col-lg-4:last-child {
+    margin-top: 30px;
+  }
+
+  .journey .row .col-lg-3.col-md-6.col-12:nth-child(3),
+  .journey .row .col-lg-3.col-md-6.col-12:last-child {
+    margin-top: 30px;
+  }
+
+  .sellers-inner.seconds.onme .row .col-lg-3.col-md-6:nth-child(3),
+  .sellers-inner.seconds.onme .row .col-lg-3.col-md-6:nth-child(4) {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section.sellers .sellers-inner .row .col-lg-3.col-md-6.col-12:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .sellers-inner.seconds.onme .row .col-lg-3.col-md-6:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .sellers-inner.seconds .row .col-lg-4:last-child,
+  .sellers-inner.seconds .row .col-lg-4:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .journey .row .col-lg-3.col-md-6.col-12:nth-child(2) {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .site-bnr .row {
+    flex-direction: column-reverse;
+  }
+
+  .footer-title {
+    margin-top: 22px;
+  }
+
+
+  .banner-img img {
+    max-width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+  #cookie-popup {
+    max-width: 95%;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    margin: 0 auto;
+  }
+}
